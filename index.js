@@ -107,7 +107,7 @@ const run = async () => {
 
     // API to Run Server
     app.get("/", async (req, res) => {
-      res.send("Manufacturer Server Running");
+      res.send("Yay!Manufacturer Server Running");
     });
 
     //Authentication API
