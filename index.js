@@ -262,7 +262,7 @@ const run = async () => {
         const user = await adminsCollection.findOne({ email: email });
         res.send(user);
       } else {
-        res.send("Unauthorized access");
+        res.send("Unauthorized access...");
       }
     });
 
