@@ -97,7 +97,7 @@ const run = async () => {
       });
     });
 
-    //API to get blogs
+    //API to get blog
 
     app.get("/blogs", async (req, res) => {
       const query = {};
