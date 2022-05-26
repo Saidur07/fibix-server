@@ -234,7 +234,7 @@ const run = async () => {
       }
     });
 
-    //API to remove admin
+    //API to remove an admin
     app.delete(
       "/user/admin/:email",
       verifyJWT,
