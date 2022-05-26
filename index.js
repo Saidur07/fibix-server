@@ -13,7 +13,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
-// pk_test_51L3eCsLUDbVdGvmwcf29cwQmp6QHjmRGAIZzVTybCROAfCD41ZF7nmXMibSu30XVrwLgTn5DZ7LbYjr1j6qzqFlk00SIEnG0x2
 function verifyJWT(req, res, next) {
   const authHeader = req.headers.authorization;
   if (!authHeader) {
